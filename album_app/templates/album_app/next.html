@@ -1,6 +1,6 @@
 {% for i in album_loop2 %}
 {{i.name}}
-{{i.image.url}}
+<img class="bd-placeholder-img card-img-top" width="100%" height="225" src={{i.image.url}}>
 {{i.description}}
 {{i.time | timesince}}
 {%endfor%}
