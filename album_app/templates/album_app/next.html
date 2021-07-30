@@ -1,0 +1,6 @@
+{% for i in album_loop2 %}
+{{i.name}}
+{{i.image.url}}
+{{i.description}}
+{{i.time | timesince}}
+{%endfor%}
